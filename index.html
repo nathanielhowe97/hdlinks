@@ -3,37 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>howesDecor</title>
+    <meta name="description" content="howesDecor is a business local to the Okaloosa, FL. area which specializes in home decor and refurbishing furntiture at our booth in Defrance Antiques on Beal.">
+    <meta name="copyright" content="howesDecor">
+    <meta name="subject" content="howesDecor business links">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="modal.js"></script>
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>howesDecor - Links</title>
 </head>
 <body>
-    <div class="wrapper">
-        <h1>howesDecor.</h1>
-        <section class="address">
-            <h2>Find us at our booth, #228</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1720.2699477209833!2d-86.61691784188712!3d30.420793434481478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88913fb8d589d631%3A0x703b47f2b9f25b91!2sDeFrance%20Antiques%20on%20Beal!5e0!3m2!1sen!2sus!4v1686794135565!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section class="socials">
-            <h2>Visit our socials</h2>
-            <div class="social-item-container">
-                <div class="social-item">
-                    <a href="https://www.facebook.com/profile.php?id=100089197627805">
-                        <img src="images/social1.png" alt="Meta Facebook Logo"></a>
-                </div>
-                <div class="social-item">
-                    <a href="https://www.instagram.com/howesdecor/">
-                        <img src="images/social2.png" alt="Meta Instagram Logo"></a>
-                </div>
-            </div>
-        </section>
-        <section class="contact">
-            <h2>Get in touch</h2>
-            <a href="mailto:howesdecor@gmail.com">howesdecor@gmail.com</a>
-        </section>
-        <!-- <section class="website">
-            {our website goes here}
-        </section> -->
-    </div>
+    <noscript>Javascript needs to be enabled to run this app.</noscript>
+    <header><h1>howesDecor.</h1></header>
+    
 
+    <main>
+        <article>
+            <div class="main-container grid">
+                <div class="open-btn-container">
+                    <button tabindex="1" id="open-button-find-us" class="open-btn">Find us</button>
+                    <button tabindex="2" id="open-button-socials" class="open-btn">Our socials</button>
+                </div>
+                <div class="modal">
+                    <dialog id="modal-find-us">
+                        <div class="modal-header">
+                            <h1>Find us <button tabindex="3" id="close-button-find-us" class="material-symbols-outlined close-btn">close</button></h1>
+                        </div>
+                        <div class="grid-container">
+                            <section class="icon-container"> <span class="material-symbols-outlined">        alternate_email</span></section>
+                            <section class="text-container"> <a href="mailto:howesdecor@gmail.com">howesdecor@gmail.com</a></section>
+                        </div>
+
+                        <div class="grid-container">
+                            <section class="icon-container"> <span class="material-symbols-outlined">        location_on</span></section>
+                            <section class="text-container"> <a href="https://goo.gl/maps/hsYyyqpN6oiN8Zut6" target="_blank">Booth 228 at 74b Beal Pkwy NW, Fort Walton Beach, Florida 325488</a></section>
+                        </div>
+
+                        <!-- need to wait for website to be stable and uploaded
+                             <div class="grid-container">
+                            <section class="icon-container"> <span class="material-symbols-outlined link">        link</span></section>
+                            <section class="text-container"> <a href="https://www.howesdecor.com/" target="_blank">www.howesdecor.com/</a></section>
+                        </div> -->
+                    </dialog>
+                </div>
+
+               
+                <div class="modal">
+                    <dialog id="modal-socials">
+                        <div class="modal-header">
+                            <h1>Our socials <button tabindex="6" id="close-button-socials" class="material-symbols-outlined close-btn">close</button></h1>
+                        </div>
+                        <div class="grid-container">
+                            <section class="icon-container"> <img src="images/facebook_logo.png" alt="Meta Facebook logo"></span></section>
+                            <section class="text-container"> <a href="https://www.facebook.com/profile.php?id=100089197627805" target="_blank">Follow us on our Facebook account</a></section>
+                        </div>
+                        <div class="grid-container">
+                            <section class="icon-container"> <img src="images/instagram_logo.png" alt="Meta Instagram logo"></span></section>
+                            <section class="text-container"> <a href="https://www.instagram.com/howesdecor/" target="_blank">Follow us on our Instagram account</a></section>
+                        </div>
+                    </dialog>
+                </div>
+                
+            </div>
+
+        </article>
+    </main>
 </body>
 </html>
