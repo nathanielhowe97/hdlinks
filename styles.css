@@ -109,6 +109,8 @@ img{
 }
 
 .open-btn{
+    cursor:pointer;
+
     margin-inline:auto;
     width:90%;
     display:block;
