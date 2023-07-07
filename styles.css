@@ -9,11 +9,11 @@
     --clr-900: #f1f1f1;
 
     /* light scheme*
-    --clr-900: #f1f1f1;
-    --clr-800: #d6d6d6;
-    --clr-700: #b4b4b4;
-
-    --clr-100: #212224; */
+    --clr-l-900: #f1f1f1;
+    --clr-l-800: #d6d6d6;
+    --clr-l-700: #b4b4b4;
+l-
+    --clr-l-100: #212224; */
 
     --ff-pri: 'DM Sans', Arial, Helvetica, sans-serif
 }
