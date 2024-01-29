@@ -55,7 +55,7 @@ a{
     gap:2rem;
     width:20rem;
 
-    transition: .15s ease-in-out;
+    transition: 0.15s ease-in-out;
 
     background-color: var(--card-bg-clr);
 
